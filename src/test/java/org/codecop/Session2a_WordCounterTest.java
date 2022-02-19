@@ -22,6 +22,7 @@ class Session2a_WordCounterTest {
     void shouldCountNumberOfWords() {
         WordCounter counter = new WordCounter("Keep the bar green to keep the code clean.");
         // TODO Check that 9, counter.numberOfWords().
+        assertTrue(counter.containsWord("bar"));
     }
 
     @Test
